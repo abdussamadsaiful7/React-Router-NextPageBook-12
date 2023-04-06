@@ -25,7 +25,7 @@ const Home = () => {
             </div>
             <div className='flex flex-col items-center md:flex-row'>
               <Link to='/books' className='btn md:w-auto md:mr-4'>
-                <div className='inline-flex items-center justify-center w-full h-full bg-blue-500 p-2 text-white rounded-md hover:bg-blue-900 font-bold'>
+                <div className='btn'>
                   <button className='mr-3'>Visit Store</button>
                   <ShoppingCartIcon className='w-5 text-gray-100' />
                 </div>
